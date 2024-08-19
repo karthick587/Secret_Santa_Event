@@ -46,7 +46,7 @@ This Node.js application automates the process of assigning Secret Santa pairs a
 Previous Secret Santa Assignments: A CSV file with columns Employee_EmailID, Secret_Child_Name, and Secret_Child_EmailID.
 - **Download Results:**: After processing the files, the application will automatically download a CSV file with the Secret Santa assignments.
 
-## Features
+## Dependencies
 
 - **express**: Web framework for Node.js.
 - **multer**: Middleware for handling file uploads.
