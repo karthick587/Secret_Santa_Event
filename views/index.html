@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Upload CSV Files</title>
+</head>
+<body>
+    <h1>Upload Two CSV Files</h1>
+    <form action="api/assign-secret-santa" method="POST" enctype="multipart/form-data">
+        <label for="employeeList">Employee List File</label>
+        <input type="file" id="employeeList" name="employeeList" accept=".csv" required><br><br>
+
+        <label for="pastAssignments">Previous Secret Santa Assignments</label>
+        <input type="file" id="pastAssignments" name="pastAssignments" accept=".csv" required><br><br>
+
+        <button type="submit">Upload</button>
+    </form>
+</body>
+</html>
